@@ -293,6 +293,8 @@ h2 {
 
 .profile-container img {
 	width: 70%;
+	height: 70%
+;
 }
 
 .photos{
@@ -302,6 +304,7 @@ h2 {
 
 .photos img {
 	padding: 20px;
+	width: 150px;
 }
 
 
