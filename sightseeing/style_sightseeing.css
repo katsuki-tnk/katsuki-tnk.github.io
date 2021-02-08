@@ -1,0 +1,280 @@
+html, body{
+    font-family: 'PT Serif', serif;
+	margin: 0px;
+	text-align: center;
+}
+
+.header-wrapper {
+	text-align: left;
+	background-color:rgba(221, 221, 221, 0.5);
+	width:100%;
+	height:60px;
+	position:fixed;
+	top:0;
+	z-index: 10;
+}
+
+.menu-icon {
+	float: right;
+	font-size: 35px;
+	line-height: 60px;
+	margin-right: 50px;
+	display: none;
+}
+
+.modal-menu {
+	display: none;
+}
+
+.header-wrapper p {
+	font-family: "comic sans MS";
+	font-size: 30px;
+	display:inline;
+	padding-left: 50px;
+	line-height: 60px;
+}
+
+.header-wrapper ul {
+	float:right;
+	display:flex;
+}
+
+.header-wrapper li {
+	list-style: none;
+}
+
+.list:hover {
+	color: #3333FF;
+}
+
+.header-wrapper a {
+	text-decoration: none;
+	padding-right: 50px;
+	font-size:20px;
+	color:black;
+}
+
+/*↓title*/
+
+.title {
+	font-size: 40px;
+	color: white;
+	background-image: url(./IMG_9581のコピー.JPG);
+	background-color:rgba(255, 255, 255, 0);
+	background-blend-mode: lighten;
+	background-size:cover;
+	padding: 1px;
+	padding-top: 10px;
+}
+
+.title h1 {
+	text-shadow: 4px 4px 1px #000;
+}
+
+
+.container {
+	padding: 0 30px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.mobile-image{
+	display: none;
+}
+
+.image-left {
+	width: 40%;
+	padding-right: 100px;
+	padding-left: 30px;
+}
+
+.image-right {
+	width: 41%;
+	padding-left: 100px;
+	padding-right: 30px;
+}
+
+.content {
+	display: flex;
+	padding-top:100px;
+}
+
+.introduction {
+	padding-top: 50px;
+	font-size: 18px;
+	width: 100%;
+}
+
+/*↓メニュー*/
+
+.menu {
+	width: 100%;
+}
+.menu ul {
+	justify-content: center;
+	display:flex;
+	padding-top: 60px;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.list:hover {
+	color: #3333FF;
+}
+
+.menu a {
+	text-decoration: none;
+	padding-right: 50px;
+	font-size:20px;
+	color:black;
+}
+
+
+/*フッター*/
+footer {
+	margin-top: 70px;
+	padding-top: 1px;
+	background-color:rgba(221, 221, 221,1);
+	line-height: 10px;
+	padding-bottom: 1px;
+}
+
+/*レスポンシブ*/
+
+/*タブレット*/
+@media (max-width: 1100px) {
+
+h1{
+	font-size: 60px;
+}
+
+	.menu-icon {
+		display: block;
+		cursor: pointer;
+	}
+
+	.header-wrapper ul {
+		display: none;
+	}
+
+	.modal-menu{
+		display: block;
+
+	}
+
+	.modal-menu ul {
+		background-color: #EEEE55;
+		padding:0 auto;
+		margin: 0;
+	}
+
+.modal-menu li {
+	line-height: 100px;
+}
+
+.container {
+	width: 90%;
+}
+
+.image-left {
+	width: 340px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.image-right {
+	width: 340px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+}
+
+/*スマホ*/
+@media (max-width: 760px){
+.header-wrapper{
+	height: 35px;
+}
+
+.header-wrapper p {
+	font-size: 20px;
+	line-height: 35px;
+	padding: 0;
+}
+
+.menu-icon {
+	font-size: 30px;
+	line-height: 35px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+.modal-menu li {
+	line-height: 30px;
+	display: block;
+}
+
+.modal-menu a{
+	font-size: 14px;
+	padding-right: 20px;
+}
+
+.mobile-image {
+	display: block;
+	width: 100%;
+}
+
+.image-left {
+display: none;
+}
+
+.image-right {
+display: none;
+}
+
+.container{
+	width: 100%;
+	padding: 0;
+}
+
+.content{
+	display: flex;
+	padding-top: 50px;
+}
+
+.title1{
+	font-size: 18px;
+}
+
+.sentence{
+	width: 100%;
+}
+
+.introduction{
+	padding: 0;
+	font-size: 14px;
+}
+
+
+.menu ul{
+	display: block;
+	line-height: 25px;
+}
+
+.menu a {
+	font-size:18px;
+}
+footer {
+	margin-top: 70px;
+	padding-top: 1px;
+	background-color:rgba(221, 221, 221,1);
+	line-height: 8px;
+	padding-bottom: 1px;
+	font-size: 12px;
+}
+
+}
