@@ -219,7 +219,6 @@ li {
     background: #5e5;;
     color: #fff;
     box-shadow: 0px 2px 4px #575;
-    margin-bottom: 70px;
     opacity: 0.9;
     position: relative;
 }
@@ -232,6 +231,10 @@ li {
     box-shadow: none;
     position: relative;
     top:4px;
+}
+
+.back {
+    margin-top: 70px;
 }
 
 /*コピーライト*/
