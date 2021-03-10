@@ -193,6 +193,19 @@ li {
     width: 90%;
 }
 
+.work{
+    width: 50%;
+}
+
+.work ul{
+    display: block;
+    margin-top: 12%;
+}
+
+.work li {
+    text-align:left;
+}
+
 .img img {
     width: 90%;
     margin: 0;
