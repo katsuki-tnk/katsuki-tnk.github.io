@@ -195,12 +195,19 @@ li {
 
 .work{
     width: 50%;
+
 }
 
 .work ul{
     display: block;
-    margin-top: 12%;
+    margin-top:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
 
 .work li {
     text-align:left;
